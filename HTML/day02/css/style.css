@@ -1,0 +1,39 @@
+/* #test {
+  color: green;
+}
+
+.my-class1 {
+  color: aqua;
+}
+.my-class2 {
+  background-color: blue;
+}
+ */
+
+/* div p {
+  color: blue;
+} */
+
+table {
+  border: 1px solid black;
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: right;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+td {
+  text-align: center;
+}
+
+.coloring {
+  background-color: antiquewhite;
+}
