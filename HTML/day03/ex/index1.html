@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+       input[type=checkbox]:checked + div{
+        height: 0px;
+       }
+       div{
+        overflow: hidden;
+        width: 650px;
+        height: 300px;
+        -ms-transition-duration : 1s;
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+
+        transition-duration: 1s;
+       }
+    </style>
+  </head>
+  <body>
+    <h1>상태 선택자</h1>
+    <input type="checkbox" name="check"></input:chcek>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Numquam libero hic quos, aliquid praesentium nisi
+            voluptate tempora nemo sit quod consequuntur laborum exercitationem sapiente
+            in dignissimos neque eveniet totam. Ullam?</p>
+    </div>
+  </body>
+</html>
